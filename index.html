@@ -55,13 +55,13 @@
   <main>
     <section id="home">
       <div class="jumbotron">
-        <h1 class="display-4">The Painter's Palette.</h1>
-        <p class="lead">Welcome to my web development and design portfolio. This page is built to reflect the current industry standards of professional web developers.
+        <h1 class="display-4">The Painter's Palette</h1>
+        <p class="lead fill">Welcome to my web development and design portfolio. This page is built to reflect the current industry standards of professional web developers.
         The portofolio websites were completed as part of the Codecademy Pro Suite. I learned a variety of contemporary web development skills, of which you can learn more below.</p>
         <hr class="my-4">
         <p class="text-center">For more in-depth information on my development skills, click below.</p>
         <p class="lead text-center">
-          <a class="btn btn-primary btn-lg" href="https://www.codecademy.com/pro/intensive/build-websites-from-scratch" role="button">Learn more</a>
+          <a class="btn btn-primary btn-lg btn-top" href="https://www.codecademy.com/pro/intensive/build-websites-from-scratch" role="button">Learn more</a>
         </p>
       </div>
     </section>
@@ -176,20 +176,27 @@
                 <input type="text" class="form-control" id="email" name="email" placeholder="Email" required>
               </div>
               <div class="form-group">
-                <input type="text" class="form-control" id="subject" name="subject" placeholder="Subject" required>
+                <select class="form-control" id="exampleFormControlSelect1" required>
+                  <option>Subject</option>
+                  <option>Request Design Services</option>
+                  <option>Request Front End Development</option>
+                  <option>Request Data Analysis</option>
+                  <option>Other</option>
+                </select>
               </div>
               <div class="form-group">
-                <textarea class="form-control" type="textarea" id="message" placeholder="Message" maxlength="140" rows="7"></textarea>
+                <textarea class="form-control" type="textarea" id="message" placeholder="Message" maxlength="200" rows="7"></textarea>
                 <span class="help-block"><p id="characterLeft" class="help-block ">You have reached the limit</p></span>
               </div>
-              <button type="button" id="submit" name="submit" class="btn btn-primary pull-left">Submit</button>
+              <button type="button" id="submit" name="submit" class="btn btn-primary text-center btn-bottom">Submit</button>
             </form>
           </div>
         </div>
     </section>
   </main>
 
-  <footer class="text-right">Copyright &copy; 2018 Sebastian. All rights reserved.</footer>
+  <footer class="text-right">Copyright &copy; 2018 Sebastian. All rights reserved. <br>
+  The background image is "Floating Island" by Roger Dean.</footer>
   <!-- Add Necessary JQuery and JS scripts for bootstrap -->
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
