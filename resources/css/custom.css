@@ -1,0 +1,83 @@
+body, html {
+  font-size: 18px;
+}
+
+a {
+  color: black;
+}
+
+/* Uncomment this block of code below to see the page layout divided into sections and divs as rectangles */
+
+/*
+div, section {
+  border: 1px solid black;
+}
+*/
+
+h1 {
+  padding: 30px;
+}
+
+section {
+    padding: 0 3em 3em 3em;
+}
+
+/* Navbar */
+
+.navbar {
+  margin-bottom: 0;
+}
+
+/* Jumbotron */
+
+.jumbotron {
+  margin: 0;
+}
+
+.jumbotron p {
+  font-style: italic;
+  margin-bottom: 0;
+}
+
+.btn {
+  margin-top: 2rem;
+  font-style: normal;
+  font-weight: bolder;
+  letter-spacing: 2px;
+}
+
+/* Portfolio Section */
+
+#portfolio {
+  background-color: #eee;
+}
+
+.row img {
+  margin: 20px 0;
+}
+
+/*Contact Section*/
+
+.contact {
+  padding: 1em;
+}
+
+/* Contact Form */
+
+.red {
+  color:red;
+}
+
+.form-area {
+  background-color: #FAFAFA;
+  padding: 10px 40px 60px;
+  margin: 10px 0px 60px;
+  border: 1px solid grey;
+}
+/* Footer */
+
+footer {
+  background: black;
+  color: lightgray;
+  padding: .6em;
+}
