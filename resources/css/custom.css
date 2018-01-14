@@ -1,5 +1,6 @@
 body, html {
   font-size: 18px;
+  font-family: fantasy;
 }
 
 a {
@@ -39,6 +40,7 @@ section {
 .jumbotron h1 {
   background-color: rgba(255,255,255,0.75);
   border-radius: 15px;
+  font-family: 'Pacifico', cursive;
 }
 
 .jumbotron p {
