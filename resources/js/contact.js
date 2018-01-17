@@ -15,4 +15,7 @@ $(document).ready(function(){
       $('#characterLeft').removeClass('red');
     }
   });
+  $('#envelope').click(function(){
+    $("form-area").show() /*need to change the display here somehow*/
+  });
 });

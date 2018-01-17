@@ -75,7 +75,9 @@ section {
 
 .row img {
   margin: 20px 0;
+  width: 100%;
 }
+
 
 /*Contact Section*/
 
@@ -90,10 +92,15 @@ section {
 }
 
 .form-area {
+  display: none;
+  position: fixed;
+  top: 0.5rem;
+  right: 10rem;
   background-color: #FAFAFA;
-  padding: 10px 40px 60px;
+  padding: 10px 40px 40px;
   margin: 10px 0px 60px;
-  border: 1px solid grey;
+  border-radius: 15px;
+  border: 1px dashed silver;
 }
 /* Footer */
 

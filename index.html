@@ -77,8 +77,8 @@
           <div class="col-sm-4 skill text-center">
             <span class="fa fa-pencil fa-5x"></span>
             <h3>Design</h3>
-            <p>Photoshop</p>
-            <p>Illustrator</p>
+            <p>Canva</p>
+            <p>Photoshop/Gimp</p>
           </div>
         <div class="col-sm-4 skill text-center">
           <span class="fa fa-line-chart fa-5x"></span>
@@ -90,42 +90,32 @@
     </div>
     </section>
     <section id="portfolio">
-    <h2 class="text-center sect-title">Completed Websites</h2>
-    <!-- Make a 6-item table -->
+    <h2 class="text-center sect-title">Project Gallery</h2>
+    <!-- Make a 4-item table -->
     <!-- Remember the syntax col-*-n where sum(n) = 12 -->
     <div class="fluid-container">
       <div class="row">
         <!-- Project 1 -->
-        <div class="col-sm-4">
-          <img class="img-responsive" src="resources/images/jake.jpg">
-          <h4 class="text-center"><a href="https://sebasgil.github.io/prj-rev-bwfs-dasmoto/Dasmoto/index.html" target="_blank">Dasmoto Arts and Crafts</a></h4>
+        <div class="col-sm-6">
+          <img class="img-responsive" src="resources/images/stories.png">
+          <h4 class="text-center"><a href="" target="_blank">Selected Short Stories</a></h4>
         </div>
         <!-- Project 2 -->
-        <div class="col-sm-4">
-          <img class="img-responsive" src="resources/images/jake.jpg">
-          <h4 class="text-center"><a href="https://sebasgil.github.io/my_times/" target="_blank">My Times</a></h4>
-        </div>
-        <!-- Project 3 -->
-        <div class="col-sm-4">
-          <img class="img-responsive" src="resources/images/jake.jpg">
+        <div class="col-sm-6">
+          <img class="img-responsive" src="resources/images/tea.png">
           <h4 class="text-center"><a href="https://sebasgil.github.io/tea_cozy/" target="_blank">Tea Cozy</a></h4>
         </div>
       </div>
       <div class="row">
-        <!-- Project 4 -->
-          <div class="col-sm-4">
-          <img class="img-responsive" src="resources/images/jake.jpg">
+        <!-- Project 3 -->
+          <div class="col-sm-6">
+          <img class="img-responsive" src="resources/images/optics.png">
           <h4 class="text-center"><a href="https://sebasgil.github.io/tortoiseshell_optics/" target="_blank">Tortoiseshell Optics</a></h4>
         </div>
-        <!-- Project 5 -->
-        <div class="col-sm-4">
-          <img class="img-responsive" src="resources/images/jake.jpg">
+        <!-- Project 4 -->
+        <div class="col-sm-6">
+          <img class="img-responsive" src="resources/images/fotomatic.png">
           <h4 class="text-center"><a href="https://sebasgil.github.io/Photomatic/" target="_blank">Fotomatic</a></h4>
-        </div>
-        <!-- Project 6 -->
-        <div class="col-sm-4">
-          <img class="img-responsive" src="resources/images/jake.jpg">
-          <h4 class="text-center"><a href="https://sebasgil.github.io/colmar_academy/" target="_blank">Colmar Academy</a></h4>
         </div>
       </div>
     </div>
@@ -145,7 +135,7 @@
       </div>
       <div class="col-sm-4">
         <div class="contact text-center">
-          <a href="#">
+          <a href="#email" id="envelope">
             <span class="fa fa-envelope fa-5x">
             </span>
           </a>
@@ -161,11 +151,16 @@
        </div>
      </div>
     </section>
+<!-- The goal is to make this appear when you click the e-mail icon -->
+<!-- Solution sketch: Change position to fixed to where to where you want it to be
+Once form is properly located, use jquery to turn it off
+Once it's off, add the right event-handler to make it reappear when the right icon
+is clicked -->
     <section>
-      <div class="container">
+      <div class="container" >
         <div class="col-md-5">
-          <div class="form-area">
-            <form role="form">
+          <div class="form-area" id="#email">
+            <form role="form show-on-click">
               <br style="clear:both">
               <h3 style="margin-bottom: 25px; text-align: center;">Contact Me</h3>
               <div class="form-group">
@@ -193,7 +188,6 @@
         </div>
     </section>
   </main>
-
   <footer class="text-right">Copyright &copy; 2018 Sebastian. All rights reserved. <br>
   The background image is "Floating Island" by Roger Dean.</footer>
   <!-- Add Necessary JQuery and JS scripts for bootstrap -->
