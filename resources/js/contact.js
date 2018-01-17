@@ -16,6 +16,6 @@ $(document).ready(function(){
     }
   });
   $('#envelope').click(function(){
-    $("form-area").show() /*need to change the display here somehow*/
+    $("#contact-form").css("display", "block"); /*need to change the display here somehow*/
   });
 });

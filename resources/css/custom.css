@@ -91,11 +91,14 @@ section {
   color:red;
 }
 
-.form-area {
+#contact-form {
   display: none;
   position: fixed;
   top: 0.5rem;
   right: 10rem;
+}
+
+.form-area {
   background-color: #FAFAFA;
   padding: 10px 40px 40px;
   margin: 10px 0px 60px;
