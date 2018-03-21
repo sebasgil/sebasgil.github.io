@@ -73,11 +73,17 @@ section {
   background-color: #eee;
 }
 
+/*tiny mis-alignments, will have to fix this eventually*/
 .row img {
   margin: 20px 0;
   width: 100%;
+  /*border: 1px dashed blue;*/
 }
 
+/*.row h4 {
+  border: 1px dashed black;
+  display: flex;
+}*/
 
 /*Contact Section*/
 
